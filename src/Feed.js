@@ -12,13 +12,11 @@ function Feed() {
       </div>
       <TweetBox />
 
-      {/* {post} */}
-      {/* {post} */}
-      {/* {post} */}
-      {/* {post} */}
-      {/* {post} */}
-      {/* {post} */}
-      {/* {post} */}
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
     </div>
   )
 }
