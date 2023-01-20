@@ -18,23 +18,23 @@ function Post({
   return (
     <div className='post'>
       <div className="post__avatar">
-        <Avatar src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png" />
+        <Avatar src={avatar} />
       </div>
       <div className="post__body">
         <div className="post__header">
           <div className="post__headerText">
             <h3>
-              Adindu Okoro{" "} 
+              {displayName}{" "} 
               <span className='post__headerSpecial'>
-                <VerifiedUser className='post__badge'/> @50pip
+                {verified && <VerifiedUser className='post__badge'/>} @{displayName}
               </span>
             </h3>
           </div>
           <div className="post__headerDescription">
-            <p>I challenge you to build a twitter clone with react</p>
+            <p>{text}</p>
           </div>
         </div>
-        <img src="https://media3.giphy.com/media/65ATdpi3clAdjomZ39/giphy.gif" alt='' 
+        <img src={image} alt='' 
         />
         <div className="post__footer">
           <ChatBubbleOutlineOutlinedIcon fontSize="small" />

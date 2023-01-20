@@ -7,7 +7,7 @@ function Tweetbox() {
     <div className='tweetBox'>
       <form>
         <div className="tweetBox__input">
-          <Avatar src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png" />
+          <Avatar src="https://pbs.twimg.com/profile_images/1564375315526275072/7Xnua7BM_400x400.jpg" />
           <input className='tweetBox__imageInput' placeholder='Whats happening?' type="text" />
         </div>
         <input className='tweetBox__imageInput' placeholder="Optional: Enter Image Url" type="text" />
